@@ -8,7 +8,7 @@ Introduces latency in FileIO Create operations so that the results can be profil
 
 Compile project to .sys driver file, .cat files and .inf file.
 
-Right-Click .inf file->Install
+Right-Click chadsbadfilter.inf file->Install
 
 Open admin cmd.exe and **fltmc load chadsbadfilter** This will load the filter to all attached volumes. This will slow down the OS overall. You can test on 1 volumne i.e. D: drive using the following.
 
